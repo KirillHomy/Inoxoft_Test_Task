@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8E9613482F3B9053007D9B01 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8E9613472F3B9053007D9B01 /* SnapKit */; };
+		8E96134B2F3B906B007D9B01 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 8E96134A2F3B906B007D9B01 /* Then */; };
+		8E9613782F3B9DD7007D9B01 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8E9613772F3B9DD7007D9B01 /* RealmSwift */; };
+		8E9613932F3BAC69007D9B01 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8E9613922F3BAC69007D9B01 /* Alamofire */; };
+		8E96139E2F3BE406007D9B01 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8E96139D2F3BE406007D9B01 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8E9613282F3B8AD7007D9B01 /* Inoxoft_Test_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inoxoft_Test_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -14,7 +22,7 @@
 		8E96133A2F3B8AD8007D9B01 /* Exceptions for "Inoxoft_Test_Task" folder in "Inoxoft_Test_Task" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Application/Info.plist,
 			);
 			target = 8E9613272F3B8AD7007D9B01 /* Inoxoft_Test_Task */;
 		};
@@ -36,6 +44,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9613782F3B9DD7007D9B01 /* RealmSwift in Frameworks */,
+				8E9613932F3BAC69007D9B01 /* Alamofire in Frameworks */,
+				8E9613482F3B9053007D9B01 /* SnapKit in Frameworks */,
+				8E96134B2F3B906B007D9B01 /* Then in Frameworks */,
+				8E96139E2F3BE406007D9B01 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,11 @@
 			);
 			name = Inoxoft_Test_Task;
 			packageProductDependencies = (
+				8E9613472F3B9053007D9B01 /* SnapKit */,
+				8E96134A2F3B906B007D9B01 /* Then */,
+				8E9613772F3B9DD7007D9B01 /* RealmSwift */,
+				8E9613922F3BAC69007D9B01 /* Alamofire */,
+				8E96139D2F3BE406007D9B01 /* Kingfisher */,
 			);
 			productName = Inoxoft_Test_Task;
 			productReference = 8E9613282F3B8AD7007D9B01 /* Inoxoft_Test_Task.app */;
@@ -107,6 +125,13 @@
 			);
 			mainGroup = 8E96131F2F3B8AD7007D9B01;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8E9613462F3B9053007D9B01 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				8E9613492F3B906B007D9B01 /* XCRemoteSwiftPackageReference "Then" */,
+				8E9613762F3B9DD7007D9B01 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				8E9613912F3BAC69007D9B01 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8E96139C2F3BE406007D9B01 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8E9613292F3B8AD7007D9B01 /* Products */;
 			projectDirPath = "";
@@ -147,13 +172,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CSS48FCS24;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Inoxoft_Test_Task/Info.plist;
+				INFOPLIST_FILE = Inoxoft_Test_Task/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -184,13 +208,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CSS48FCS24;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Inoxoft_Test_Task/Info.plist;
+				INFOPLIST_FILE = Inoxoft_Test_Task/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,6 +378,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E9613462F3B9053007D9B01 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		8E9613492F3B906B007D9B01 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		8E9613762F3B9DD7007D9B01 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8E9613912F3BAC69007D9B01 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
+		8E96139C2F3BE406007D9B01 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E9613472F3B9053007D9B01 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E9613462F3B9053007D9B01 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		8E96134A2F3B906B007D9B01 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E9613492F3B906B007D9B01 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		8E9613772F3B9DD7007D9B01 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E9613762F3B9DD7007D9B01 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		8E9613922F3BAC69007D9B01 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E9613912F3BAC69007D9B01 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		8E96139D2F3BE406007D9B01 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E96139C2F3BE406007D9B01 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8E9613202F3B8AD7007D9B01 /* Project object */;
 }
