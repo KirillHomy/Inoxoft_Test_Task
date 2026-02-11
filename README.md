@@ -122,3 +122,5 @@ This project demonstrates:
 	•	Asynchronous networking
 	•	Local caching strategy
 	•	Scalable and maintainable codebase
+
+![Task](https://github.com/KirillHomy/Inoxoft_Test_Task/blob/main/Test%20assignment%20(iOS).pdf)
