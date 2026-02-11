@@ -123,4 +123,4 @@ This project demonstrates:
 	•	Local caching strategy
 	•	Scalable and maintainable codebase
 
-![Task](https://github.com/KirillHomy/Inoxoft_Test_Task/blob/main/Test%20assignment%20(iOS).pdf)
+![Task](https://github.com/KirillHomy/Inoxoft_Test_Task/blob/main/Test%20assignment%20(iOS).jpg)
